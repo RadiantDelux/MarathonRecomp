@@ -102,7 +102,7 @@ void KiSystemStartup()
         XamRegisterContent(XamMakeContent(XCONTENTTYPE_SAVEDATA, "SonicNextSaveData.bin"), (const char*)(savePathU8.c_str()));
     }
 
-    // Mount game
+    // Mount gamea
     XamContentCreateEx(0, "game", &gameContent, OPEN_EXISTING, nullptr, nullptr, 0, 0, nullptr);
 
     // OS mounts game data to D:
