@@ -62,7 +62,7 @@ void HostStartup()
 }
 
 // Name inspired from nt's entry point
-//ASA
+//AS
 void KiSystemStartup()
 {
     if (g_memory.base == nullptr)
